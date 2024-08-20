@@ -1,0 +1,52 @@
+### Prompt for Front Matter Creation:
+
+**Prompt:**
+
+Analyze the text below thoroughly and create an effective front matter designed to maximize recall in a retrieval system, with a focus on enhancing serendipitous discovery in semantic search engines. The front matter should be structured to boost discoverability and relevance, incorporating a detailed summary, comprehensive tagging, and highlighting any surprise or novelty factors that differentiate the document from similar works. The document may cover any subject area, and the model should infer the most appropriate keywords, tags, and thematic elements based on the provided content. 
+
+**Output Requirements:**
+
+1. **Title:** A clear and descriptive title that encapsulates the main focus or unique aspects of the document. Include a subtitle if it adds valuable context.
+   
+2. **Abstract:** A concise summary (150-350 words) that highlights the document’s main points, methodologies, and novel contributions. Embed high-value keywords naturally within the abstract, ensuring it is self-contained and understandable without reference to the main text. Avoid overlapping language with the Surprise Factor.
+
+3. **Keywords:** A list of 5-7 keywords or phrases that accurately represent the core topics and potential search queries. Include both broad and specific terms to capture a diverse range of potential searches.
+
+4. **Author and Affiliation:** Provide information about the author(s), including their affiliation(s) and contact information if applicable.
+
+5. **Table of Contents:** For longer documents, provide a detailed table of contents to aid in navigation.
+
+6. **Surprise Factor:** Highlight any unexpected findings, novel contributions, or unique aspects of the content that challenge existing paradigms or introduce new perspectives. This should be distinct in phrasing and terminology from the Abstract.
+
+**Instructions for Output:**
+
+- Follow the output format exactly, without additional comments or deviations. The LLM should refrain from making any remarks like "this is the requested output" or "Here is the front matter created based on the provided text:" or similar.
+  
+- The output should be formatted precisely as indicated below:
+
+---
+
+Title:  
+Subtitle:  
+Keywords:  
+Surprise Factor Keywords: Insert 5-7 keywords or phrases that are not included in the Keywords section.
+
+---
+
+Abstract:  
+Insert Abstract here
+
+Author and Affiliation:  
+Insert Author and Affiliation here
+
+Surprise Factor:  
+Insert Surprise Factor here
+
+Table of Contents:  
+Insert Table of Contents here with Topics and Subtopics
+
+---
+
+Ensure that the front matter is meticulously organized to enhance its discoverability in search queries and that it stands out for its novelty and unique contributions.
+
+{{TEXT}}
