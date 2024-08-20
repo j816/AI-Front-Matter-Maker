@@ -28,7 +28,7 @@ AI Front-Matter Maker is a PyQt6-based GUI application designed to help you gene
 1. **Clone the Repository**
 
    ```bash
-   git clone [https://github.com/yourusername/ai-front-matter-maker.git](https://github.com/j816/AI-Front-Matter-Maker.git)
+   git clone https://github.com/yourusername/ai-front-matter-maker.git
    cd ai-front-matter-maker
    ```
 
