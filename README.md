@@ -1,6 +1,10 @@
 # AI Front-Matter Maker
 
-AI Front-Matter Maker is a PyQt6-based GUI application designed to help you generate markdown files with YAML front matter (or whatever else you want at the top of a text file. It depends on your prompt). This tool is particularly useful for quickly importing structured data into markdown files, allowing you to efficiently sort through and manage multiple documents in something like Obsidian, or DevonThink.
+AI Front-Matter Maker is a PyQt6-based GUI application designed to help you generate markdown files with YAML front matter (or whatever else you want at the top of a text file. It depends on your prompt). This tool is particularly useful for quickly importing structured data into markdown files, allowing you to efficiently sort through and manage multiple documents in something like Obsidian, or DevonThink. It should be able to work through thousands of files since it processes them sequentially.
+
+Enhancing Semantic Search in Vectors for easy retrieval through LLMs is the main intent. I based the prompt off this paper, and then just abstracted to do stuff to the top part of a file:
+https://arxiv.org/abs/2407.09450
+Human-like Episodic Memory for Infinite Context LLMs
 
 ## Features
 
